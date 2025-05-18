@@ -1,5 +1,5 @@
 import React from "react";
-import { Product } from "../../types/product";
+import { Product } from "../../types/types";
 import { FaRupeeSign } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getProduct } from "../../services/product";
-import { Product } from "../../types/product";
+import { Product } from "../../types/types";
 import { FaRupeeSign } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 

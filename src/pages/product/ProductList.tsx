@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import ProductItem from "./ProductItem";
 import { getProducts } from "../../services/product";
-import { Product } from "../../types/product";
+import { Product } from "../../types/types";
 import debounce from "lodash.debounce";
 import { ShimmerPostList } from "react-shimmer-effects";
 
