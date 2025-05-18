@@ -1,6 +1,5 @@
+import { API_BASE_URL } from "../types/constant";
 import { Product } from "../types/types";
-
-const API_BASE_URL = 'https://fakestoreapi.com';
 
 const getProducts = async () => {
     const response = await fetch(`${API_BASE_URL}/products`);
